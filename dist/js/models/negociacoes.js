@@ -1,4 +1,4 @@
-export default class Negociacoes {
+export class Negociacoes {
     constructor() {
         this.negociacoes = [];
     }
@@ -9,7 +9,3 @@ export default class Negociacoes {
         return this.negociacoes;
     }
 }
-// const list: Array <number> = []
-// list.push('10');
-// list.push(5)
-// list.push(true)
